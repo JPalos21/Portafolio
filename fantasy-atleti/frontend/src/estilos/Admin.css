@@ -1,0 +1,153 @@
+/* Contenedor principal */
+.admin-container {
+  max-width: 900px;
+  margin: 20px auto;
+  padding: 20px;
+  background: #f8f9fa;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Encabezado */
+.admin-container h2 {
+  text-align: center;
+  color: #333;
+}
+
+.admin-container p {
+  text-align: center;
+  color: #555;
+  font-size: 14px;
+}
+
+/* Filtros y formulario */
+.filters {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+.filters form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background: white;
+  padding: 15px;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  width: 100%;
+  max-width: 400px;
+}
+
+.filters label {
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+.filters select {
+  width: 100%;
+  padding: 8px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  margin-bottom: 10px;
+}
+
+/* Mensaje de error */
+.error {
+  color: red;
+  font-size: 14px;
+  margin-bottom: 10px;
+}
+
+/* Botones del formulario */
+.filters button {
+  width: 100%;
+  padding: 8px;
+  border: none;
+  border-radius: 5px;
+  font-weight: bold;
+  cursor: pointer;
+  margin: 5px 0;
+  transition: 0.3s;
+}
+
+.filters button[type="submit"] {
+  background-color: #28a745;
+  color: white;
+}
+
+.filters button[type="button"] {
+  background-color: #dc3545;
+  color: white;
+}
+
+.filters button:hover {
+  opacity: 0.8;
+}
+
+/* Lista de jugadores */
+.jugadores-lista {
+  list-style: none;
+  padding: 0;
+}
+
+.jugador-item {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background: white;
+  padding: 10px;
+  border-radius: 8px;
+  margin-bottom: 10px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+/* Imagen del jugador */
+.jugador-img {
+  width: 50px;
+  height: 50px;
+  object-fit: cover;
+  border-radius: 50%;
+  margin-right: 10px;
+}
+
+/* Información del jugador */
+.jugador-info {
+  flex-grow: 1;
+  font-weight: bold;
+  color: #333;
+}
+
+/* Botones de acciones */
+.jugador-acciones {
+  display: flex;
+  gap: 10px;
+}
+
+.jugador-acciones button {
+  padding: 5px 10px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-weight: bold;
+  transition: 0.3s;
+}
+
+.jugador-acciones .modificar {
+  background-color: #ffc107;
+  color: black;
+}
+
+.jugador-acciones .consultar {
+  background-color: #17a2b8;
+  color: white;
+}
+
+.jugador-acciones .borrar {
+  background-color: #dc3545;
+  color: white;
+}
+
+.jugador-acciones button:hover {
+  opacity: 0.8;
+}

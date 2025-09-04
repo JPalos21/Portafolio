@@ -1,0 +1,71 @@
+/* Estilos generales para el formulario de edición de producto */
+.editar-producto-form {
+  max-width: 500px;
+  margin: 20px auto;
+  padding: 20px;
+  background-color: #f9f9f9;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  border: 1px solid #ddd;
+}
+
+/* Estilo para las etiquetas de los campos */
+.editar-producto-label {
+  display: block;
+  font-size: 1rem;
+  font-weight: bold;
+  margin-bottom: 8px;
+  color: #333;
+}
+
+/* Estilos para los campos de entrada (input y textarea) */
+.editar-producto-input,
+.editar-producto-textarea {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  font-size: 1rem;
+}
+
+.editar-producto-input:focus,
+.editar-producto-textarea:focus {
+  border-color: #007bff;
+  outline: none;
+  box-shadow: 0 0 5px rgba(0, 123, 255, 0.5);
+}
+
+/* Estilo para el texto de error */
+.editar-producto-error {
+  color: red;
+  font-size: 0.9rem;
+  margin-top: 4px;
+}
+
+/* Estilo para el botón de envío */
+.editar-producto-btn {
+  padding: 10px 20px;
+  background-color: #28a745;
+  color: white;
+  font-size: 1rem;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.editar-producto-btn:hover {
+  background-color: #218838;
+}
+
+.editar-producto-btn:disabled {
+  background-color: #ccc;
+  cursor: not-allowed;
+}
+
+/* Ajustes generales para evitar conflictos */
+.editar-producto-form * {
+  margin-top: 10px;
+}

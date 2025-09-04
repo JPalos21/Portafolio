@@ -1,0 +1,92 @@
+/* Estilos generales */
+.auth-container {
+    max-width: 400px;
+    margin: 50px auto;
+    padding: 20px;
+    background: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    border: 3px solid #e40613; /* Rojo Atleti */
+}
+
+.auth-container h2 {
+    font-size: 24px;
+    margin-bottom: 15px;
+    color: #002f6c; /* Azul Atleti */
+    font-weight: bold;
+}
+
+/* Formularios */
+.auth-form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.auth-form div {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.auth-form label {
+    font-weight: bold;
+    margin-bottom: 5px;
+    color: #002f6c;
+}
+
+.auth-form input {
+    width: 100%;
+    padding: 8px;
+    border: 2px solid #e40613;
+    border-radius: 4px;
+    font-size: 16px;
+}
+
+.auth-form input:focus {
+    outline: none;
+    border-color: #002f6c;
+}
+
+/* Botones */
+.auth-button {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    font-weight: bold;
+    color: white;
+    background: #e40613;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background 0.3s;
+}
+
+.auth-button:hover {
+    background: #002f6c;
+}
+
+/* Mensajes de error */
+.auth-error {
+    color: #e40613;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+/* Enlace de registro */
+.auth-link {
+    margin-top: 10px;
+}
+
+.auth-link a {
+    color: #e40613;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.auth-link a:hover {
+    text-decoration: underline;
+    color: #002f6c;
+}
+

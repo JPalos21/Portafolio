@@ -1,0 +1,47 @@
+html, body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+}
+
+#root {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.app-container {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+}
+
+/* Mantén tus estilos actuales del header */
+header {
+  position: sticky;
+  top: 0;
+  left: 0;
+  z-index: 1000;
+  /* Añade esto si quieres que el header tenga altura fija */
+  /* height: 70px; */
+}
+
+main {
+  flex: 1;
+  padding: 20px 0;
+  /* Añade el padding-top aquí en lugar de en .lista-jugadores */
+  padding-top: 70px; 
+}
+
+footer {
+  background-color: #2c3e50; /* Color del footer que propuse anteriormente */
+  color: white;
+  padding: 20px 0;
+  margin-top: auto; /* Esto asegura que el footer siempre quede abajo */
+}
+
+/* Elimina el padding-top de .lista-jugadores */
+.lista-jugadores {
+  /* padding-top: 70px;  Elimina esta línea */
+}

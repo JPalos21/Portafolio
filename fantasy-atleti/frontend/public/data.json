@@ -1,0 +1,293 @@
+{
+  "jugadores": [
+    {
+      "nombre": "Jan Oblak",
+      "posicion": "Portero",
+      "precio": 70,
+      "url": "/imagenes/jugadores/oblak.jpg",
+      "descripcion": "Del clan de los balcanes, el mejor portero de la historia del Atleti y uno de los mejores del siglo XXI. Su cara de póker tras cada parada es legendaria. 'Oblak y 10 más'.",
+      "id": "1"
+    },
+    {
+      "id": "2",
+      "nombre": "Miguel Ángel Moyá",
+      "posicion": "Portero",
+      "precio": 15,
+      "url": "/imagenes/jugadores/moya.png",
+      "descripcion": "Clave en la Liga 2013-14, ayudó a Oblak a asentarse. Hombre de equipo y pieza fundamental en el vestuario."
+    },
+    {
+      "id": "3",
+      "nombre": "Leo Franco",
+      "posicion": "Portero",
+      "precio": 15,
+      "url": "/imagenes/jugadores/leo_franco.jpg",
+      "descripcion": "Portero mítico del Atleti en los años de reconstrucción. Su parada en la tanda de penaltis contra el Villarreal en 2008 sigue en la memoria colchonera."
+    },
+    {
+      "id": "4",
+      "nombre": "Jose María Giménez",
+      "posicion": "Defensa",
+      "precio": 50,
+      "url": "/imagenes/jugadores/gimenez.jpg",
+      "descripcion": "El heredero de Godín en el Atleti y en la selección uruguaya. Entrega, garra y liderazgo en estado puro."
+    },
+    {
+      "id": "5",
+      "nombre": "Diego Godín",
+      "posicion": "Defensa",
+      "precio": 60,
+      "url": "/imagenes/jugadores/godin.jpeg",
+      "descripcion": "El Faraón. El gol que nos dio la Liga en 2014 en el Camp Nou es historia del Atleti. Un líder absoluto."
+    },
+    {
+      "id": "6",
+      "nombre": "Tomáš Ujfaluši",
+      "posicion": "Defensa",
+      "precio": 10,
+      "url": "/imagenes/jugadores/ufjalusi.jpg",
+      "descripcion": "El checo de la defensa. Aportó veteranía y contundencia en la zaga que ganó la Europa League en 2010."
+    },
+    {
+      "id": "7",
+      "nombre": "Stefan Savić",
+      "posicion": "Defensa",
+      "precio": 20,
+      "url": "/imagenes/jugadores/savic.jpeg",
+      "descripcion": "Del clan de los balcanes, el montenegrino de hierro. Duro como una roca, fundamental en la solidez defensiva del Atleti de Simeone."
+    },
+    {
+      "id": "8",
+      "nombre": "Filipe Luis",
+      "posicion": "Defensa",
+      "precio": 40,
+      "url": "/imagenes/jugadores/filipe.jpeg",
+      "descripcion": "Un lateral de culto. Clase, calidad y un socio perfecto para los ataques por banda izquierda. Parte clave de la Liga 2013-14."
+    },
+    {
+      "id": "9",
+      "nombre": "Sime Vrsaljko",
+      "posicion": "Defensa",
+      "precio": 25,
+      "url": "/imagenes/jugadores/sime.jpeg",
+      "descripcion": "Del clan de los balcanes, el croata aguerrido. Aunque las lesiones marcaron su etapa, dejó destellos de calidad y entrega en el Atleti."
+    },
+    {
+      "id": "10",
+      "nombre": "João Miranda",
+      "posicion": "Defensa",
+      "precio": 40,
+      "url": "/imagenes/jugadores/miranda.jpeg",
+      "descripcion": "Héroe de la final de Copa del Rey 2013. Su gol de cabeza en el Bernabéu rompió una racha de 14 años sin vencer al eterno rival."
+    },
+    {
+      "id": "11",
+      "nombre": "Nahuel Molina",
+      "posicion": "Defensa",
+      "precio": 30,
+      "url": "/imagenes/jugadores/molina.jpg",
+      "descripcion": "El lateral campeón del mundo con Argentina, una prueba más de la proeza de Messi. En constante evolución con Simeone"
+    },
+    {
+      "id": "12",
+      "nombre": "Axel Witsel",
+      "posicion": "Defensa",
+      "precio": 20,
+      "url": "/imagenes/jugadores/witsel.jpg",
+      "descripcion": "Centrocampista reconvertido a defensa. Clase, pausa y elegancia con el balón. Un comodín para el Cholo. Witselsaurio."
+    },
+    {
+      "id": "13",
+      "nombre": "Koke Resurrección",
+      "posicion": "Centrocampista",
+      "precio": 30,
+      "url": "/imagenes/jugadores/koke.jpg",
+      "descripcion": "El capitán eterno. ADN Atleti, cerebro del equipo y leyenda viva del club rojiblanco."
+    },
+    {
+      "nombre": "Gabi",
+      "posicion": "Centrocampista",
+      "precio": 30,
+      "url": "/imagenes/jugadores/gabi.jpg",
+      "descripcion": "El jefe del mediocampo. Capitán de la Liga 2013-14 y corazón del equipo. El Atleti en su máxima esencia.",
+      "id": "14"
+    },
+    {
+      "id": "15",
+      "nombre": "Rodrigo De Paul",
+      "posicion": "Centrocampista",
+      "precio": 40,
+      "url": "/imagenes/jugadores/depaul.jpeg",
+      "descripcion": "El asadito mecánico y futbolista total. Campeón del mundo con Argentina y pieza clave en la intensidad del mediocampo colchonero."
+    },
+    {
+      "id": "16",
+      "nombre": "Héctor Herrera",
+      "posicion": "Centrocampista",
+      "precio": 10,
+      "url": "/imagenes/jugadores/herrera.png",
+      "descripcion": "Mediocampista mexicano con gran capacidad de recuperación y visión de juego. Fue una pieza clave en el centro del campo del Atlético."
+    },
+    {
+      "id": "17",
+      "nombre": "Saúl Ñíguez",
+      "posicion": "Centrocampista",
+      "precio": 40,
+      "url": "/imagenes/jugadores/saul.jpg",
+      "descripcion": "Versátil centrocampista con llegada y gol. Criado en la cantera rojiblanca, se ha destacado por su trabajo en ambas áreas."
+    },
+    {
+      "id": "18",
+      "nombre": "Raúl García",
+      "posicion": "Centrocampista",
+      "precio": 30,
+      "url": "/imagenes/jugadores/roro.jpg",
+      "descripcion": "Centrocampista con carácter, entrega y olfato goleador. Fue un jugador clave en el esquema de Simeone por su polivalencia."
+    },
+    {
+      "id": "19",
+      "nombre": "Arda Turán",
+      "posicion": "Centrocampista",
+      "precio": 30,
+      "url": "/imagenes/jugadores/arda.jpg",
+      "descripcion": "Mediocampista turco con una técnica exquisita y gran capacidad de regate. Fue fundamental en la conquista de LaLiga 2013/14."
+    },
+    {
+      "id": "20",
+      "nombre": "Tiago Cardoso Mendes",
+      "posicion": "Centrocampista",
+      "precio": 30,
+      "url": "/imagenes/jugadores/tiago.png",
+      "descripcion": "Centrocampista portugués con una inteligencia táctica sobresaliente. Su liderazgo y equilibrio fueron clave en el Atlético de Simeone."
+    },
+    {
+      "id": "21",
+      "nombre": "Marcos Llorente",
+      "posicion": "Centrocampista",
+      "precio": 30,
+      "url": "/imagenes/jugadores/marcos.png",
+      "descripcion": "Jugador todoterreno con gran despliegue físico. Brilló como mediocampista y también como lateral o delantero por su velocidad y resistencia."
+    },
+    {
+      "nombre": "Antoine Griezmann",
+      "posicion": "Delantero",
+      "precio": 80,
+      "url": "/imagenes/jugadores/griezmann.jpg",
+      "descripcion": "Delantero francés con una calidad técnica y capacidad goleadora excepcionales. Uno de los máximos referentes del Atlético en la última década.",
+      "id": "22"
+    },
+    {
+      "id": "23",
+      "nombre": "Fernando Torres",
+      "posicion": "Delantero",
+      "precio": 40,
+      "url": "/imagenes/jugadores/torres.jpg",
+      "descripcion": "El 'Niño' es un ídolo eterno del Atlético. Su velocidad, goles y amor por el club lo convirtieron en una leyenda rojiblanca."
+    },
+    {
+      "id": "24",
+      "nombre": "Radamel Falcao",
+      "posicion": "Delantero",
+      "precio": 60,
+      "url": "/imagenes/jugadores/falcao.jpg",
+      "descripcion": "Depredador del área con una capacidad goleadora brutal. Lideró al Atlético a conquistar la Europa League 2011/12 con sus goles."
+    },
+    {
+      "id": "25",
+      "nombre": "Ángel Correa",
+      "posicion": "Delantero",
+      "precio": 20,
+      "url": "/imagenes/jugadores/correa.jpg",
+      "descripcion": "Extremo habilidoso y con gol. Su entrega y desborde lo han convertido en una pieza fundamental del equipo."
+    },
+    {
+      "id": "26",
+      "nombre": "Yannick Ferreira Carrasco",
+      "posicion": "Delantero",
+      "precio": 30,
+      "url": "/imagenes/jugadores/carrasco.png",
+      "descripcion": "Extremo belga con velocidad y regate. Brilló en la final de la Champions 2016 y ha sido clave en varios títulos del club."
+    },
+    {
+      "id": "27",
+      "nombre": "Julián Alvarez",
+      "posicion": "Delantero",
+      "precio": 60,
+      "url": "/imagenes/jugadores/julian.png",
+      "descripcion": "La 'Araña', joven delantero argentino con gran olfato goleador y movilidad. Su polivalencia lo hace un jugador diferencial."
+    },
+    {
+      "id": "28",
+      "nombre": "Luis Suárez",
+      "posicion": "Delantero",
+      "precio": 80,
+      "url": "/imagenes/jugadores/lucho.jpg",
+      "descripcion": "El 'Pistolero' fue clave en la Liga 2020/21 con sus goles decisivos. Delantero letal con gran definición."
+    },
+    {
+      "id": "29",
+      "nombre": "Diego Forlán",
+      "posicion": "Delantero",
+      "precio": 50,
+      "url": "/imagenes/jugadores/forlan.jpg",
+      "descripcion": "Goleador uruguayo con un disparo imparable. Ganó la Bota de Oro y llevó al Atleti a la gloria europea en 2010."
+    },
+    {
+      "id": "30",
+      "nombre": "Diego Costa",
+      "posicion": "Delantero",
+      "precio": 60,
+      "url": "/imagenes/jugadores/costa.png",
+      "descripcion": "Delantero guerrero con potencia y carácter. Su garra fue clave en el título de Liga 2013/14."
+    },
+    {
+      "id": "31",
+      "nombre": "David Villa",
+      "posicion": "Delantero",
+      "precio": 60,
+      "url": "/imagenes/jugadores/villa.png",
+      "descripcion": "El 'Guaje' fue vital en la conquista de la Liga 2013/14. Delantero con gran olfato y definición."
+    },
+    {
+      "id": "32",
+      "nombre": "Paulo Futre",
+      "posicion": "Delantero",
+      "precio": 70,
+      "url": "/imagenes/jugadores/futre.jpeg",
+      "descripcion": "Ídolo rojiblanco en los 80 y 90. Su magia y talento le convirtieron en una leyenda del club."
+    }
+  ],
+  "usuarios": [
+    {
+      "id": "1",
+      "nombre": "javi",
+      "pass": "$2b$10$y0ojiYBdbmfQwy1mit0Y2ucndTBQeowLs9nwI/oTsH1hqqoxdTVca"
+    },
+    {
+      "id": "2",
+      "nombre": "admin",
+      "pass": "$2b$10$BatD3JnaUBS6r2xuZmI5ROtcPPnNhnTUm5NfMf6kUwLfhlJ3E1c2W"
+    }
+  ],
+  "alineaciones": [
+    {
+      "id": "4941",
+      "entrenador": "javi",
+      "apodo": "prueba",
+      "alineacion": [
+        "Jan Oblak",
+        "Jose María Giménez",
+        "Stefan Savić",
+        "Sime Vrsaljko",
+        "João Miranda",
+        "Koke Resurrección",
+        "Gabi",
+        "Raúl García",
+        "Antoine Griezmann",
+        "Julián Alvarez",
+        "Luis Suárez"
+      ],
+      "precio": 460
+    }
+  ]
+}

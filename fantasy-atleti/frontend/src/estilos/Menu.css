@@ -1,0 +1,188 @@
+/* Estilos para el menú superior */
+.menu-superior {
+  background-color: #d61a1a; /* Rojo Atlético de Madrid */
+  padding: 10px 20px;
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+  display: flex;
+  justify-content: center;
+}
+
+.menu-lista {
+  list-style: none;
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  padding: 0;
+  margin: 0;
+}
+
+.menu-lista li {
+  margin: 0 15px;
+}
+
+.icono-supermercado {
+  width: 40px;
+  height: auto;
+}
+
+.icono-atleti {
+  width: 60px;
+  height: 60px;
+  padding: 5px;
+  /*background-color: gray;
+  border: 2px solid yellow;
+  border-radius: 5px;*/
+}
+
+.saludo-usuario {
+  font-size: 1.2rem;
+  font-weight: bold;
+  color: #fff;
+  margin-right: 15px;
+}
+
+.carrito-info {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-weight: bold;
+  color: white;
+}
+
+.toggle-carrito {
+  background: #022e61; /* Azul Atlético */
+  color: white;
+  border: none;
+  padding: 8px 15px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.toggle-carrito:hover {
+  background: #01408e;
+}
+
+.carrito-productos {
+  position: absolute;
+  top: 60px;
+  right: 20px;
+  background: white;
+  color: black;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  padding: 15px;
+  border-radius: 5px;
+  width: 250px;
+}
+
+.lista-productos {
+  list-style: none;
+  padding: 0;
+}
+
+.producto-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 5px 0;
+  border-bottom: 1px solid #ddd;
+}
+
+.eliminar-producto {
+  background: transparent;
+  border: none;
+  cursor: pointer;
+  font-size: 18px;
+}
+
+.eliminar-producto:hover {
+  color: #d71920;
+}
+
+/* Enlaces */
+.menu-lista a {
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+  transition: color 0.3s;
+}
+
+.menu-lista a:hover {
+  color: #01408e;
+}
+
+/* Botón de reset */
+button {
+  background: #022e61;
+  color: white;
+  border: none;
+  padding: 8px 12px;
+  cursor: pointer;
+  font-weight: bold;
+  border-radius: 5px;
+}
+
+button:hover {
+  background: #01408e;
+}
+
+.presupuesto-restante {
+  font-weight: bold;
+  color: white;
+  margin-left: auto;
+  padding: 5px 10px;
+  background-color: rgba(0, 0, 0, 0.2);
+  border-radius: 5px;
+}
+.usuario-opciones {
+  position: relative; /* Para posicionar correctamente el desplegable */
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.usuario-opciones ul {
+  list-style: none;
+  position: absolute;
+  top: 40px; /* Ajuste para que no se superponga al usuario */
+  right: 0;
+  background: white;
+  color: black;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  padding: 10px;
+  border-radius: 5px;
+  display: none; /* Oculto por defecto */
+  flex-direction: column;
+  min-width: 150px;
+}
+
+.usuario-opciones:hover ul {
+  display: flex; /* Se muestra al pasar el cursor */
+}
+
+.usuario-opciones ul li {
+  padding: 8px 12px;
+  text-align: left;
+  white-space: nowrap;
+}
+
+.usuario-opciones ul li a {
+  color: black;
+  text-decoration: none;
+  font-weight: normal;
+}
+
+.usuario-opciones ul li a:hover {
+  color: #d61a1a;
+  font-weight: bold;
+}
+
+@media (max-width: 768px) {
+  .menu-lista {
+    flex-direction: column;
+    align-items: center;
+  }
+
+}

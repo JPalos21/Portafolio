@@ -1,0 +1,36 @@
+/* Contenedor principal */
+.pagina404-container {
+  text-align: center;
+  padding: 50px;
+  color: #2c3e50;
+}
+
+/* Título grande "404" */
+.pagina404-title {
+  font-size: 80px;
+  margin-bottom: 10px;
+  font-weight: bold;
+  color: #e74c3c; /* Rojo vibrante */
+}
+
+/* Texto descriptivo */
+.pagina404-text {
+  font-size: 20px;
+  margin-bottom: 20px;
+  color: #7f8c8d; /* Gris elegante */
+}
+
+/* Botón para volver al inicio */
+.pagina404-button {
+  text-decoration: none;
+  background-color: #f39c12; /* Naranja vibrante */
+  color: white;
+  padding: 10px 20px;
+  border-radius: 5px;
+  font-size: 18px;
+  transition: background 0.3s ease;
+}
+
+.pagina404-button:hover {
+  background-color: #e67e22; /* Naranja más oscuro */
+}
