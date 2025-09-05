@@ -113,7 +113,7 @@ Acceso a historial de alineaciones
 
 Usuario	Contraseña
 javi	123
-admin	admin
+admin	admin123
 
 Puedes crear un usuario nuevo en el login e iniciar sesión a continuación. Si no quieres puedes acceder con un usuario precreado llamado javi con contraseña 123
 También puedes acceder como administrador con el usuario admin y contraseña admin123
