@@ -1,8 +1,9 @@
-FaANTASY ATLETI
+# Fantasy Atleti ⚽️🔥
 
 Aplicación web para crear alineaciones de jugadores del Atlético de Madrid con un presupuesto limitado.
 Frontend en React + Vite, backend simulado con JSON Server, todo desplegable vía Docker.
 
+- TECNOLOGÍAS UTILIZADAS
 - REQUISITOS
 - INSTALACIÓN Y EJECUCIÓN EN DOCKER
 - EJECUCIÓN SIN DOCKER
@@ -12,8 +13,24 @@ Frontend en React + Vite, backend simulado con JSON Server, todo desplegable ví
 - FUNCIONALIDAD EXPLICADA
 - NOTAS ADICIONALES
 
+## 🚀 Tecnologías utilizadas
 
-REQUISITOS
+- React + Vite
+- JSON Server (mock API)
+- Docker + Docker Compose
+- CSS personalizado
+
+
+## Requisitos
+
+Docker y Docker Compose instalados
+
+Navegador moderno (Chrome, Edge, Firefox…)
+
+Opcional si no usas Docker: Node.js >=18 para ejecutar Vite y JSON Server localmente.
+
+
+## 📦 Instalación y ejecución en Docker
 
 Docker y Docker Compose instalados
 
@@ -50,7 +67,7 @@ docker-compose down
 o pararlos desde Docker Desktop
 
 
-EJECUCIÓN SIN DOCKER (opcional)
+## Ejecución sin docker (opcional)
 
 Instalar dependencias:
 
@@ -70,7 +87,7 @@ npm run dev
 Frontend en http://localhost:5173, backend en http://localhost:3000.
 
 
-ESTRUCTURA DEL PROYECTO
+## Estructura del proyecto
 
 frontend/ – Código React + Vite
 
@@ -81,7 +98,7 @@ Dockerfile – Imagen del frontend
 docker-compose.yml – Orquestación de frontend + JSON Server
 
 
-FUNCIONALIDAD PRINCIPAL
+## Funcionalidad principal
 
 Con un presupuesto limitado crear una alineación de 11 jugadores nunca gastando más de lo permitido. Además se pueden guardar alineaciones y borrarlas. También se pueden editar y eliminar jugadores.
 
@@ -90,13 +107,19 @@ Visualizar presupuesto restante y jugadores en la alineación
 Acceso a historial de alineaciones
 
 
-LOGIN
+## Login
+
+👤 Usuarios por defecto
+
+Usuario	Contraseña
+javi	123
+admin	admin
 
 Puedes crear un usuario nuevo en el login e iniciar sesión a continuación. Si no quieres puedes acceder con un usuario precreado llamado javi con contraseña 123
 También puedes acceder como administrador con el usuario admin y contraseña admin123
 
 
-FUNCIONALIDAD EXPLICADA
+## Funcionalidad explicada
 
 Una vez iniciada sesión como usuario normal podemos ir añadiendo jugadores hasta un máximo de 11. Hay un máximo de 1 portero, 4 defensas, 3 centrocampistas y 3 delanteros. Puedes llevar el seguimiento del número de jugadores desplegando la lista haciendo click en el carrito de la compra derecho. Vienen acompañados de un botón para borrar todos los jugadores de una posición en caso de que fuese necesario.
 
@@ -104,13 +127,12 @@ Si únicamente necesitas borrar un jugador puedes ir a la zona de "Mi alineació
 
 Podrás visualizar todas las alineaciones de todos los entrenadores y borrarlas desde "Alineaciones".
 
-** Hay una funcionalidad secreta y es que puedes añadir más dinero a tu presupuesto si haces click en el escudo del Atleti **
-
+***Hay una funcionalidad secreta y es que puedes añadir más dinero a tu presupuesto si haces click en el escudo del Atleti***
 
 En caso de iniciar sesión como admin puedes acceder a la zona llamada "Admin" en la que podrás filtrar los jugadores según su posición y modificar su información y precio, o directamente borrarlos. Esta zona que se encuentra en /admin no se puede acceder por ruta en caso de que sea un usuario normal.
 
 
-NOTAS ADICIONALES
+## Notas adicionales
 
 Para un correcto funcionamiento, asegúrate de borrar la caché del navegador si realizas cambios en data.json.
 
